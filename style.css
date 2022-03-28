@@ -1,0 +1,1853 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.nav-bar
+{
+    width: 100%;
+    height: 600px;
+    background-image: url("img/nit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.heading
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.brand
+{
+    margin-top: 25px;
+    margin-left: 55px;
+    color: red;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.left
+{
+    display: flex;
+    column-gap: 30px;
+    color: red;
+    font-family: sans-serif;
+    margin-top:30px;
+    margin-right: 45px;
+    font-size: 15px;
+}
+.left .eng p
+{
+   border: 2px solid #fff;
+   padding: 8px;
+   color: #fff;
+   width: 100px;
+   background-color: black;
+}
+.left .sig p
+{
+   border: 2px solid #fff;
+   padding: 8px;
+   background-color: red;
+   color: #fff;
+   border-color: red;
+   width: 100px;
+   
+}
+.left a
+{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+}
+.middle
+{
+    color: #fff;
+   text-align: center;
+   margin-top:10%;
+}
+.middle h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span h1
+{
+    margin-top: -20px;
+   
+}
+.middle h3{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.middle p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+.middle input
+{
+    width: 500px;
+    padding: 20px;
+}
+.middle button
+{
+    padding: 15px;
+    background-color: red;
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.line
+{
+    width: 100%;
+    height: 10px;
+    color: black;
+    background-color: rgb(75, 74, 74);
+    margin: 0px;
+}
+@media (max-width:560px)
+{
+    .brand 
+    {
+        margin-left: 35px;
+        font-size: 20px;
+    }
+    .left
+    {
+        column-gap: 8px;
+    }
+  .left .eng p
+  {
+      width: 50px;
+      font-size: 10px;
+      padding: 5px;
+  }
+  .left .sig p
+  {
+      width: 50px;
+      font-size: 10px;
+      padding: 5px;
+  }
+  .middle h1
+  {
+    
+    font-size: 40px;
+    
+   }
+  .middle input
+  {
+      width: 400px;
+  }
+
+}
+@media (max-width:420px)
+{
+    .nav-bar
+    {
+        height:400px;
+    }
+    .middle input
+    {
+        width: 300px;
+        padding: 10px;
+    }
+    .middle h1
+    {
+        font-size: 30px;
+    }
+    .middle h3
+    {
+        font-size: 20px;
+    }
+    span h1
+   {
+      margin-top: -10px;
+   }
+   .middle p
+   {
+       margin-top: 10px;
+       font-size: 15px;
+   }
+   .middle button
+   {
+       padding: 10px;
+   }
+}
+@media (max-width:360px)
+{
+    .brand
+    {
+        margin-left: 10px;
+    }
+}
+@media (max-width:300px)
+{
+    .middle input
+    {
+        width: 200px;
+    }
+    .middle button
+    {
+        width: 150px;
+    }
+}
+/*----------Tv section------*/
+.tv
+{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.text-1 
+{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.text-1 h1
+{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.text-1 h3
+{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+}
+img
+{
+    width: 500px;
+}
+.line-1
+{
+    width: 100%;
+    height: 10px;
+    color: black;
+    background-color: rgb(75, 74, 74);
+   
+}
+@media (max-width:1020px)
+{
+    .text-1 h1
+    {
+        font-size: 40px;
+    }
+    .text-1 h3
+    {
+        font-size: 20px;
+    }
+    img
+    {
+        width: 400px;
+    }
+}
+@media (max-width:720px)
+{
+    .text-1 h1
+    {
+        font-size: 30px;
+    }
+    .text-1 h3
+    {
+        font-size: 15px;
+    }
+    img
+    {
+        width: 300px;
+    }
+}
+@media (max-width:620px)
+{
+    .tv{
+        display: block;
+        margin-top: -62px;
+    }
+    .text-1 h1
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+    .text-1 h3
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    img
+    {
+        width: 400px;
+        margin-left: 15%;
+    }
+}
+@media (max-width:520px)
+{
+    img
+    {
+        width: 400px;
+        margin-left: 12%;
+    }
+}
+@media (max-width:480px)
+{
+    img
+    {
+        width: 300px;
+        margin-left: 17%;
+    }
+}
+@media (max-width:420px)
+{
+    img
+    {
+        margin-left: 15%;
+    }
+}
+@media (max-width:390px)
+{
+    .text-1 h1
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .text-1 h3
+    {
+        font-size: 15px;
+        text-align: center;
+    }
+    img
+    {
+        width: 250px;
+        margin-left:15%;
+    }
+
+}
+/*--------download------------*/
+.download
+{
+    width: 100%;
+    max-height: 500px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.text-2
+{
+    margin-top: 10%;
+}
+.text-2 h1
+{
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+.text-2 p
+{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.line-2
+{
+    width: 100%;
+    height: 10px;
+    color: black;
+    background-color: rgb(75, 74, 74);
+   
+}
+@media (max-width:1020px)
+{
+    .text-2 h1
+    {
+        font-size: 40px;
+    }
+    .text-2 p
+    {
+        font-size: 25px;
+    }
+}
+@media (max-width:780px)
+{
+    .text-2 h1
+    {
+        font-size: 35px;
+    }
+    .text-2 p
+    {
+        font-size: 20px;
+    }
+}
+@media (max-width:620px)
+{
+    .download
+    {
+        display: table;
+    }
+    .text-2
+    {
+        text-align: center;
+        display: table-header-group;
+      
+    }
+    .text-2 h1
+    {
+        font-size: 25px;
+        
+    }
+    .text-2 p
+    {
+        font-size: 15px;
+    }
+    .imge 
+    {
+        display: table-footer-group;
+    }
+}
+
+/*-------------watch--------*/
+.watch
+{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.text-3
+{
+    margin-top: 10%;
+}
+.text-3 h1{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.text-3 p{
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.saf img
+{
+    margin-top: 20px;
+}
+.line-3
+{
+    width: 100%;
+    height: 10px;
+    color: black;
+    background-color: rgb(75, 74, 74);
+   
+}
+
+@media (max-width:860px)
+{
+    .text-3 h1
+    {
+        font-size: 35px;
+    }
+    .text-3 p
+    {
+        font-size: 20px;
+    }
+    .saf img
+    {
+        width: 300px;
+    }
+    
+}
+@media (max-width:620px)
+{
+    .watch{
+        display: block;
+        text-align: center;
+    }
+    .text-3
+    {
+        margin-top: 0px;
+    
+    }
+    .saf
+    {
+        margin-left: -100px;
+    }
+}
+@media (max-width:420px)
+{
+    .saf
+    {
+        margin-left:-22%;
+    }
+}
+/*--------children------*/
+.children
+{
+    width: 100%;
+    max-height: 600px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.text-4
+{
+    margin-top: 6%;
+}
+.text-4 h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.text-4 p
+{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.child-img
+{
+    margin-top: 20px;
+}
+.line-4
+{
+    width: 100%;
+    height: 10px;
+    color: black;
+    background-color: rgb(75, 74, 74);
+   
+}
+
+@media (max-width:860px)
+{
+    .text-4 h1
+    {
+        font-size: 35px;
+    }
+    .text-4 p
+    {
+        font-size: 20px;
+    }
+}
+@media (max-width:620px)
+{
+    .children{
+        display: table;
+        text-align: center;
+        
+    }
+    .text-4
+    {
+        margin-top: 0px;
+        display: table-header-group;
+    
+    }
+    .child-img
+    {
+        display: table-footer-group;
+    }
+    .child-img img
+    {
+        margin-left: -3%;
+        margin-top: 15px;
+    }
+}
+
+/*-------drop-down-------------*/
+.dropdown
+{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    color: #fff;
+}
+.dropdown h1
+{
+    text-align: center;
+    font-size: 50px;
+   padding: 35px;
+}
+.dropdown-head
+{
+    max-height: 50px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+    width: 700px;
+    background-color: rgb(124, 123, 123);
+}
+.dropdown-head h3
+{
+    line-height: 50px;
+}
+
+.dropdown-head img
+{
+    width: 40px;
+    position: relative;
+    left: 280px;
+    bottom: 45px;
+}
+.dropdown-content
+{
+    display:none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(105, 102, 102);
+    width: 700px;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*-----dropdown 1---*/
+.dropdown-head-1
+{
+    margin-top: 15px;
+    max-height: 50px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+    width: 700px;
+    background-color: rgb(124, 123, 123);
+}
+.dropdown-head-1 h3
+{
+    line-height: 50px;
+}
+
+.dropdown-head-1 img
+{
+    width: 40px;
+    position: relative;
+    left: 280px;
+    bottom: 45px;
+}
+.dropdown-content-1
+{
+    display:none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(105, 102, 102);
+    width: 700px;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*------------dropdown 2----------*/
+.dropdown-head-2
+{
+    margin-top: 15px;
+    max-height: 50px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+    width: 700px;
+    background-color: rgb(124, 123, 123);
+}
+.dropdown-head-2 h3
+{
+    line-height: 50px;
+}
+
+.dropdown-head-2 img
+{
+    width: 40px;
+    position: relative;
+    left: 280px;
+    bottom: 45px;
+}
+.dropdown-content-2
+{
+    display:none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(105, 102, 102);
+    width: 700px;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*-----------dropdown 3-------*/
+.dropdown-head-3
+{
+    margin-top: 15px;
+    max-height: 50px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+    width: 700px;
+    background-color: rgb(124, 123, 123);
+}
+.dropdown-head-3 h3
+{
+    line-height: 50px;
+}
+
+.dropdown-head-3 img
+{
+    width: 40px;
+    position: relative;
+    left: 280px;
+    bottom: 45px;
+}
+.dropdown-content-3
+{
+    display:none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(105, 102, 102);
+    width: 700px;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*-----------dropdown 4--------*/
+.dropdown-head-4
+{
+    margin-top: 15px;
+    max-height: 50px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+    width: 700px;
+    background-color: rgb(124, 123, 123);
+}
+.dropdown-head-4 h3
+{
+    line-height: 50px;
+}
+
+.dropdown-head-4 img
+{
+    width: 40px;
+    position: relative;
+    left: 280px;
+    bottom: 45px;
+}
+.dropdown-content-4
+{
+    display:none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(105, 102, 102);
+    width: 700px;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*------------dropdown 5--------*/
+.dropdown-head-5
+{
+    margin-top: 15px;
+    max-height: 50px;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 25px;
+    width: 700px;
+    background-color: rgb(124, 123, 123);
+}
+.dropdown-head-5 h3
+{
+    line-height: 50px;
+}
+
+.dropdown-head-5 img
+{
+    width: 40px;
+    position: relative;
+    left: 280px;
+    bottom: 45px;
+}
+.dropdown-content-5
+{
+    display:none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(105, 102, 102);
+    width: 700px;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:1320px)
+{
+    .dropdown-main
+    {
+      margin-left: -5%;
+    }
+}
+@media (max-width:1120px)
+{
+    .dropdown-main
+    {
+      margin-left: -12%;
+    }
+}
+@media (max-width:1080px)
+{
+    .dropdown-main
+    {
+      margin-left: -16%;
+    }
+}
+@media (max-width:900px)
+{
+    .dropdown-main
+    {
+      margin-left: -20%;
+    }
+}
+@media (max-width:860px)
+{
+    .dropdown-main
+    {
+        margin-left: -25%;
+    }
+}
+@media (max-width:780px)
+{
+   .dropdown-head
+   {
+      max-width: 600px;
+      margin-left: 25%;
+   }
+   .dropdown-content
+   {
+       max-width:600px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head img
+   {
+       margin-left: -10%;
+   }
+    
+   .dropdown-head-1
+   {
+      max-width: 600px;
+      margin-left: 25%;
+   }
+   .dropdown-content-1
+   {
+       max-width:600px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-1 img
+   {
+       margin-left: -10%;
+   }
+    
+   .dropdown-head-2
+   {
+      max-width: 600px;
+      margin-left: 25%;
+   }
+   .dropdown-content-2
+   {
+       max-width:600px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-2 img
+   {
+       margin-left: -10%;
+   }
+   .dropdown-head-3
+   {
+      max-width: 600px;
+      margin-left: 25%;
+   }
+   .dropdown-content-3
+   {
+       max-width:600px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-3 img
+   {
+       margin-left: -10%;
+   }
+   .dropdown-head-4
+   {
+      max-width: 600px;
+      margin-left: 25%;
+   }
+   .dropdown-content-4
+   {
+       max-width:600px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-4 img
+   {
+       margin-left: -10%;
+   }
+   .dropdown-head-5
+   {
+      max-width: 600px;
+      margin-left: 25%;
+   }
+   .dropdown-content-5
+   {
+       max-width:600px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-5 img
+   {
+       margin-left: -10%;
+   }
+    
+}
+@media (max-width:700px)
+{
+    .dropdown
+    {
+        height: 900px;
+    }
+}
+@media (max-width:640px)
+{
+    .dropdown-head
+   {
+      max-width: 550px;
+      margin-left: 24%;
+   }
+   .dropdown-content
+   {
+       max-width:550px;
+       margin-left: 24%;
+    
+   }
+   .dropdown-head img
+   {
+       margin-left: -10%;
+   }
+   .dropdown-head-1
+   {
+      max-width: 550px;
+      margin-left: 24%;
+   }
+   .dropdown-content-1
+   {
+       max-width:550px;
+       margin-left: 24%;
+    
+   }
+   .dropdown-head-1 img
+   {
+       margin-left: -10%;
+   }
+   .dropdown-head-2
+   {
+      max-width: 550px;
+      margin-left: 24%;
+   }
+   .dropdown-content-2
+   {
+       max-width:550px;
+       margin-left: 24%;
+    
+   }
+   .dropdown-head-2 img
+   {
+       margin-left: -10%;
+   }
+   .dropdown-head-3
+   {
+      max-width: 550px;
+      margin-left: 24%;
+   }
+   .dropdown-content-3
+   {
+       max-width:550px;
+       margin-left: 24%;
+    
+   }
+   .dropdown-head-3 img
+   {
+       margin-left: -10%;
+   }
+   .dropdown-head-4
+   {
+      max-width: 550px;
+      margin-left: 24%;
+   }
+   .dropdown-content-4
+   {
+       max-width:550px;
+       margin-left: 24%;
+    
+   }
+   .dropdown-head-4 img
+   {
+       margin-left: -10%;
+   }
+   .dropdown-head-5
+   {
+      max-width: 550px;
+      margin-left: 24%;
+   }
+   .dropdown-content-5
+   {
+       max-width:550px;
+       margin-left: 24%;
+    
+   }
+   .dropdown-head-5 img
+   {
+       margin-left: -10%;
+   }
+   
+   
+}
+@media (max-width:600px)
+{
+    .dropdown-head
+   {
+      max-width: 500px;
+      margin-left: 25%;
+   }
+   .dropdown-content
+   {
+       max-width:500px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head img
+   {
+       margin-left: -25%;
+   }
+   .dropdown-head-1
+   {
+      max-width: 500px;
+      margin-left: 25%;
+   }
+   .dropdown-content-1
+   {
+       max-width:500px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-1 img
+   {
+       margin-left: -25%;
+   }
+   .dropdown-head-2
+   {
+      max-width: 500px;
+      margin-left: 25%;
+   }
+   .dropdown-content-2
+   {
+       max-width:500px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-2 img
+   {
+       margin-left: -25%;
+   }
+   .dropdown-head-3
+   {
+      max-width: 500px;
+      margin-left: 25%;
+   }
+   .dropdown-content-3
+   {
+       max-width:500px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-3 img
+   {
+       margin-left: -25%;
+   }
+   .dropdown-head-4
+   {
+      max-width: 500px;
+      margin-left: 25%;
+   }
+   .dropdown-content-4
+   {
+       max-width:500px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-4 img
+   {
+       margin-left: -25%;
+   }
+   .dropdown-head-5
+   {
+      max-width: 500px;
+      margin-left: 25%;
+   }
+   .dropdown-content-5
+   {
+       max-width:500px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-5 img
+   {
+       margin-left: -25%;
+   }
+}
+@media (max-width:550px)
+{
+    .dropdown-head
+   {
+      max-width: 450px;
+      margin-left: 25%;
+   }
+   .dropdown-content
+   {
+       max-width:450px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head img
+   {
+       margin-left: -35%;
+   }
+   .dropdown-head-1
+   {
+      max-width: 450px;
+      margin-left: 25%;
+   }
+   .dropdown-content-1
+   {
+       max-width:450px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-1 img
+   {
+       margin-left: -35%;
+   }
+   .dropdown-head-2
+   {
+      max-width: 450px;
+      margin-left: 25%;
+   }
+   .dropdown-content-2
+   {
+       max-width:450px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-2 img
+   {
+       margin-left: -35%;
+   }
+   .dropdown-head-3
+   {
+      max-width: 450px;
+      margin-left: 25%;
+   }
+   .dropdown-content-3
+   {
+       max-width:450px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-3 img
+   {
+       margin-left: -35%;
+   }
+   .dropdown-head-4
+   {
+      max-width: 450px;
+      margin-left: 25%;
+   }
+   .dropdown-content-4
+   {
+       max-width:450px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-4 img
+   {
+       margin-left: -35%;
+   }
+   .dropdown-head-5
+   {
+      max-width: 450px;
+      margin-left: 25%;
+   }
+   .dropdown-content-5
+   {
+       max-width:450px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-5 img
+   {
+       margin-left: -35%;
+   }
+}
+@media (max-width:500px)
+{
+    .dropdown-head
+   {
+      max-width: 400px;
+      margin-left: 25%;
+   }
+   .dropdown-content
+   {
+       max-width:400px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head img
+   {
+       margin-left: -50%;
+   }
+   .dropdown-head-1
+   {
+      max-width: 400px;
+      margin-left: 25%;
+   }
+   .dropdown-head-1 h3
+   {
+       text-align: left;
+       font-size: 25px;
+   }
+   .dropdown-content-1
+   {
+       max-width:400px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-1 img
+   {
+       margin-left: -50%;
+   }
+   .dropdown-head-2
+   {
+      max-width: 400px;
+      margin-left: 25%;
+   }
+   .dropdown-head-2 h3
+   {
+       text-align: left;
+       font-size: 25px;
+   }
+   .dropdown-content-2
+   {
+       max-width:400px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-2 img
+   {
+       margin-left: -50%;
+   }
+   .dropdown-head-3
+   {
+      max-width: 400px;
+      margin-left: 25%;
+   }
+   .dropdown-head-3 h3
+   {
+       text-align: left;
+       font-size: 25px;
+   }
+   .dropdown-content-3
+   {
+       max-width:400px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-3 img
+   {
+       margin-left: -50%;
+   }
+   .dropdown-head-4
+   {
+      max-width: 400px;
+      margin-left: 25%;
+   }
+   .dropdown-head-4 h3
+   {
+       text-align: left;
+       font-size: 25px;
+   }
+   .dropdown-content-4
+   {
+       max-width:400px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-4 img
+   {
+       margin-left: -50%;
+   }
+   .dropdown-head-5
+   {
+      max-width: 400px;
+      margin-left: 25%;
+   }
+   .dropdown-head-5 h3
+   {
+       text-align: left;
+       font-size: 25px;
+   }
+   .dropdown-content-5
+   {
+       max-width:400px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-5 img
+   {
+       margin-left: -50%;
+   }
+}
+@media (max-width:450px)
+{
+    .dropdown-head
+   {
+      max-width: 350px;
+      margin-left: 25%;
+   }
+   .dropdown-content
+   {
+       max-width:350px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-1
+   {
+      max-width: 350px;
+      margin-left: 25%;
+   }
+   .dropdown-content-1
+   {
+       max-width:350px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-1 img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-2
+   {
+      max-width: 350px;
+      margin-left: 25%;
+   }
+   .dropdown-content-2
+   {
+       max-width:350px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-2 img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-3
+   {
+      max-width: 350px;
+      margin-left: 25%;
+   }
+   .dropdown-content-3
+   {
+       max-width:350px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-3 img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-4
+   {
+      max-width: 350px;
+      margin-left: 25%;
+   }
+   .dropdown-content-4
+   {
+       max-width:350px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-4 img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-5
+   {
+      max-width: 350px;
+      margin-left: 25%;
+   }
+   .dropdown-content-5
+   {
+       max-width:350px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-5 img
+   {
+       margin-left: -65%;
+   }
+}
+@media (max-width:400px)
+{
+    .dropdown-head
+   {
+      max-width: 300px;
+      margin-left: 25%;
+   }
+   .dropdown-head h3
+   {
+       text-align: left;
+       font-size:25px;
+   }
+   .dropdown-content
+   {
+       max-width:300px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-1
+   {
+      max-width: 300px;
+      margin-left: 25%;
+   }
+   .dropdown-head-1 h3
+   {
+       text-align: left;
+       font-size:25px;
+   }
+   .dropdown-content-1
+   {
+       max-width:300px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-1 img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-2
+   {
+      max-width: 300px;
+      margin-left: 25%;
+   }
+   .dropdown-head-2 h3
+   {
+       text-align: left;
+       font-size:25px;
+   }
+   .dropdown-content-2
+   {
+       max-width:300px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-2 img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-3
+   {
+      max-width: 300px;
+      margin-left: 25%;
+   }
+   .dropdown-head-3 h3
+   {
+       text-align: left;
+       font-size:25px;
+   }
+   .dropdown-content-3
+   {
+       max-width:300px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-3 img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-4
+   {
+      max-width: 300px;
+      margin-left: 25%;
+   }
+   .dropdown-head-4 h3
+   {
+       text-align: left;
+       font-size:20px;
+   }
+   .dropdown-content-4
+   {
+       max-width:300px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-4 img
+   {
+       margin-left: -65%;
+   }
+   .dropdown-head-5
+   {
+      max-width: 300px;
+      margin-left: 25%;
+   }
+   .dropdown-head-5 h3
+   {
+       text-align: left;
+       font-size:25px;
+   }
+   .dropdown-content-5
+   {
+       max-width:300px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-5 img
+   {
+       margin-left: -65%;
+   }
+}
+@media (max-width:350px)
+{
+    .dropdown-head
+   {
+      max-width: 250px;
+      margin-left: 25%;
+   }
+   .dropdown-content
+   {
+       max-width:250px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head img
+   {
+       margin-left: -105%;
+   }
+   .dropdown-head-1
+   {
+      max-width: 250px;
+      margin-left: 25%;
+   }
+   .dropdown-head-1 h3
+   {
+       font-size: 20px;
+
+   }
+   .dropdown-content-1
+   {
+       max-width:250px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-1 img
+   {
+       margin-left: -105%;
+   }
+   .dropdown-head-2
+   {
+      max-width: 250px;
+      margin-left: 25%;
+   }
+   .dropdown-head-2 h3
+   {
+       font-size: 20px;
+
+   }
+   .dropdown-content-2
+   {
+       max-width:250px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-2 img
+   {
+       margin-left: -105%;
+   }
+   .dropdown-head-3
+   {
+      max-width: 250px;
+      margin-left: 25%;
+   }
+   .dropdown-head-3 h3
+   {
+       font-size: 20px;
+       padding: 1px;
+
+   }
+   .dropdown-content-3
+   {
+       max-width:250px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-3 img
+   {
+       margin-left: -105%;
+   }
+   .dropdown-head-4
+   {
+      max-width: 250px;
+      margin-left: 25%;
+   }
+   .dropdown-head-4 h3
+   {
+       font-size: 20px;
+       padding: 1px;
+
+   }
+   .dropdown-content-4
+   {
+       max-width:250px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-4 img
+   {
+       margin-left: -105%;
+   }
+   .dropdown-head-5
+   {
+      max-width: 250px;
+      margin-left: 25%;
+   }
+   .dropdown-head-5 h3
+   {
+       font-size: 20px;
+
+   }
+   .dropdown-content-5
+   {
+       max-width:250px;
+       margin-left: 25%;
+    
+   }
+   .dropdown-head-5 img
+   {
+       margin-left: -105%;
+   }
+}
+
+.btn
+{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 35px;
+}
+.btn p
+{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.btn input
+{
+    margin-top: 15px;
+    padding: 15px;
+    width: 420px;
+    font-size: 20px;
+}
+.btn button
+{
+    padding: 15px;
+    width: 200px;
+    background-color: red;
+    font-size:20px;
+}
+.line-5
+{
+    width: 100%;
+    height: 10px;
+    color: black;
+    background-color: rgb(75, 74, 74);
+}
+@media (max-width:740px)
+{
+    .btn input
+    {
+        width: 480px;
+    }
+}
+@media (max-width:700px)
+{
+   .btn button
+   {
+       margin-top: 8px;
+   }
+}
+@media (max-width:490px)
+{
+    .btn input
+    {
+        width: 100%;
+    }
+}
+/*-------footer--------*/
+.footer
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: rgb(112, 106, 106);
+    padding: 100px;
+    
+}
+
+.fot-head
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.fot-part1
+{
+    display: flex;
+}
+.fot-part2
+{
+    display:flex;
+    margin-left: -40%;
+}
+.fot-head a
+{
+    color: rgb(212, 207, 207);
+    display: block;
+    justify-content: space-around;
+    border: none;
+    text-decoration: none;
+    margin: 25px;
+}
+.footer-bootom 
+{
+    margin-top: 10px;
+    margin-left: 250px;
+}
+.footer-bootom p{
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid rgb(212, 211, 211);
+    color: rgb(160, 160, 160);
+    padding: 10px;
+    width: 150px;
+    font-size: 25px;
+}
+.footer-bootom h3
+{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+@media (max-width:1220px)
+{
+    .fot-part2{
+        margin-left: -30%;
+    }
+}
+@media (max-width:1100px)
+{
+    .fot-part2{
+        margin-left: -25%;
+    }
+}
+@media (max-width:980px)
+{
+    .fot-part2{
+        margin-left: -10%;
+    }
+    .footer-bootom
+    {
+        margin-left: -20px;
+    }
+}
+@media (max-width:860px)
+{
+    .fot-head
+    {
+        font-size: 12px;
+    }
+}
+@media (max-width:740px)
+{
+    .fot-head
+    {
+        margin-left: -15%;
+    }
+}
+@media (max-width:540px)
+{
+   .fot-part1
+   {
+       display: block;
+   }
+   .fot-part2
+   {
+       display: block;
+    }
+    .footer h2
+    {
+        margin-left: -25px;
+        font-size: 20px;
+    }
+
+
+}
+@media (max-width:460px)
+{
+    .footer h2
+    {
+        margin-left: -50px;
+        font-size: 15px;
+    }
+    .fot-head
+    {
+        font-size: 10px;
+    }
+    .fot-part1
+    {
+        margin-left: -55px;
+    }
+    .footer-bootom
+    {
+        margin-left: -80px;
+    }
+ 
+}
+@media (max-width:360px)
+{
+    .footer h2
+    {
+        margin-left: -85px;
+        font-size: 13px;
+    }
+   .fot-head a
+   {
+     width: 70px;
+   }
+
+}
